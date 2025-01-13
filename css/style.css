@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 1rem;
 }
 .main .sobre-mi .contenedor-sobre-mi .texto .descripcion {
-  color: grey;
+  color: rgb(131, 157, 17);
   font-weight: 100;
   line-height: 1.5;
 }
