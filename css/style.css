@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .sobre-mi .contenedor-sobre-mi .texto .descripcion {
   color:#00ff00;
-  font-weight: 10000;
+  font-weight: bold;
   line-height: 1.5;
 }
 .main .sobre-mi .contenedor-sobre-mi .texto p {
