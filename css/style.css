@@ -207,6 +207,48 @@ h1, h2, h3, h4, h5, h6, p {
   color: #9AA1A9;
 }
 
+.asignaturas {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.contenedor-asignaturas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+/** Asignaturas **/
+.asignatura {
+  width: 300px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.asignatura .foto img {
+  width: 100%;
+  height: auto;
+}
+
+.asignatura .info {
+  padding: 15px;
+  text-align: center;
+}
+
+.asignatura h4 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.asignatura p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+
 /** Media Queries **/
 .main .sobre-mi {
   min-height: 100vh;
