@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6, p {
 .main .sobre-mi .contenedor-sobre-mi .texto #pow-txt {
   display: none;
   color: #e3e3e3;
-  font-weight: 100;
+  font-weight: bold;
 }
 .main .sobre-mi .contenedor-sobre-mi .texto .direccion {
   margin-bottom: 1rem;
