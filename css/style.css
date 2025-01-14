@@ -253,7 +253,8 @@ h1, h2, h3, h4, h5, h6, p {
 .main .sobre-mi {
   min-height: 100vh;
   padding: 3rem 0;
-  background: #033b90;
+  background: #1c2840db;
+  ;
   color: #000000;
   margin-bottom: 3rem;
 }
@@ -456,7 +457,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 /** Media Queries **/
 .footer {
-  background: #ffffff;
+  background: #1c2840db;
+  ;
   color: #000000;
   padding: 2rem 0 0 0;
 }
