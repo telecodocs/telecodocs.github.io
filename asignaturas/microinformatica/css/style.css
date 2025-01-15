@@ -34,7 +34,7 @@ html {
 }
 body {
   font-family: "Oswald", sans-serif;
-  background: url("../video/background.mp4") repeat;
+  background: url("../img/back-blue.jpg") repeat;
   background-attachment: fixed;
   color: #ffffff;
 }
