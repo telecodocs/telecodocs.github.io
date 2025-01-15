@@ -23,15 +23,7 @@ html {
   border-radius: 5px;
 }
 
-#background-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1; /* Para que el video quede detrás del contenido */
-}
+
 body {
   font-family: "Oswald", sans-serif;
   background: url("../img/back-blue.jpg") repeat;
@@ -46,7 +38,7 @@ body {
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .contenedor {
@@ -83,6 +75,7 @@ h1, h2, h3, h4, h5, h6, p {
   right: 1.25rem;
   z-index: 1;
 }
+
 
 /** Media Queries **/
 /** Media Queries **/
