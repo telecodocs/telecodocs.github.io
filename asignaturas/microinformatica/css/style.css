@@ -23,6 +23,15 @@ html {
   border-radius: 5px;
 }
 
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Para que el video quede detrás del contenido */
+}
 body {
   font-family: "Oswald", sans-serif;
   background: url("../video/background.mp4") repeat;
