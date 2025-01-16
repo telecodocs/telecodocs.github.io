@@ -10,35 +10,16 @@ html {
   box-sizing: inherit;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: white;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #E80000;
-  border-radius: 5px;
-}
 
 
-body {
-  font-family: "Oswald", sans-serif;
-  background: url("../img/back-blue.jpg") repeat;
-  background-attachment: fixed;
-  color: #ffffff;
-}
-
-#particles-js{
+#particles-js {
+  position: fixed; /* Fijo para que se quede en el fondo */
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: #1943B6;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: repeat;
+  z-index: -1; /* Asegura que las partículas estén detrás de todo el contenido */
+  background-color: #081abd; /* Fondo negro, puedes cambiarlo si lo deseas */
 }
 
 .contenedor {
@@ -58,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .titulo {
   margin-bottom: 4rem;
-  text-align: center;
+  text-align: center;f
   font-size: 2rem;
   font-weight: 500;
 }
